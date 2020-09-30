@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: local('Museo Sans Rounded 500'), local('Museo-Sans-Rounded-500'),
+        url('MuseoSansRounded-500.woff2') format('woff2'),
+        url('MuseoSansRounded-500.woff') format('woff'),
+        url('MuseoSansRounded-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* RESET Styles */
+body,
+p,
+h2,
+h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* BASE */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: 'Museo Sans Rounded';
+    background-color: #c5c5c8;
+    background-image: url(../img/bg3.png), url(../img/bg1.png), url(../img/bg2.png);
+    background-position: center;
+    position: relative;
+}
+
+.main {
+    width: 686px;
+    height: 391px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 32.5px rgba(0, 0, 0, 0.82));
+    background-color: #111a28;
+    color: #e1e1e1;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.product {
+    margin-top: 80px;
+}
+
+.bullets {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.icon-lens-black-18dp {
+    font-size: 12px;
+}
+
+.icon-lens-black-18dp:hover {
+    font-size: 14px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+}
+
+.one {
+    color: #1f273f;
+}
+
+.tree {
+    color: #ed3333;
+}
+
+.four {
+    color: #29e3ea;
+}
+
+.right-side {
+    padding: 60px 60px 0 60px;
+}
+
+.title {
+    font-size: 24px;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+.subtitle {
+    width: 217px;
+    height: 30px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+}
+
+.icons-stars {
+    margin-top: 25px;
+}
+
+.icon-star-black-18dp {
+    color: #f7bf16;
+}
+
+.grey {
+    color: grey;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrapper {
+    width: 69px;
+    height: 32px;
+    background-color: #111a28;
+    border: 1px solid #ffffff;
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.icon-keyboard_arrow_down-black-18dp {
+    padding-top: 5px;
+}
+
+.button {
+    width: 184px;
+    height: 40px;
+    background-color: #4c525a;
+    border: 1px solid #ffffff;
+    margin-top: 25px;
+    color: #e1e1e1;
+}
